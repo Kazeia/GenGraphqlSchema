@@ -37,7 +37,7 @@ func main() {
 		}
 		schema += string(content) + "\n"
 	}
-	schema += "`"
+	schema += "`\n"
 
 	ioutil.WriteFile("./rawSchema.go", []byte(schema), 0644)
 }
