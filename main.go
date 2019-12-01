@@ -39,5 +39,5 @@ func main() {
 	}
 	schema += "`"
 
-	ioutil.WriteFile("./schema.go", []byte(schema), 0644)
+	ioutil.WriteFile("./rawSchema.go", []byte(schema), 0644)
 }
